@@ -3,27 +3,27 @@ public class App           //Implementing Observer design pattern
 {
     public static void main( String[] args )
     {
-    	Channel rajdeep = new Channel();
-    	Members m1=new Members("Rajdeep");
-    	Members m2=new Members("Roma");
-    	Members m3=new Members("Raj");
-    	Members m4=new Members("Deep");
-    	Members m5=new Members("Rex");
+    	Channel debjit = new Channel();
+    	Members m1=new Members("Debjit");
+    	Members m2=new Members("Anirban");
+    	Members m3=new Members("Shreya");
+    	Members m4=new Members("Swagata");
+    	Members m5=new Members("Mike");
     	
-    	rajdeep.membership(m1);
-    	rajdeep.membership(m2);
-    	rajdeep.membership(m3);
-    	rajdeep.membership(m4);
-    	rajdeep.membership(m5);
-    	rajdeep.Cancelmembership(m5);
+    	debjit.membership(m1);
+    	debjit.membership(m2);
+    	debjit.membership(m3);
+    	debjit.membership(m4);
+    	debjit.membership(m5);
+    	debjit.Cancelmembership(m5);
     	
-    	m1.MemberChannel(rajdeep);
-    	m2.MemberChannel(rajdeep);
-    	m3.MemberChannel(rajdeep);
-    	m4.MemberChannel(rajdeep);
-    	m5.MemberChannel(rajdeep);
+    	m1.MemberChannel(debjit);
+    	m2.MemberChannel(debjit);
+    	m3.MemberChannel(debjit);
+    	m4.MemberChannel(debjit);
+    	m5.MemberChannel(debjit);
     	
-    	rajdeep.upload("App released");
+    	debjit.upload("App released");
     	
     	
         

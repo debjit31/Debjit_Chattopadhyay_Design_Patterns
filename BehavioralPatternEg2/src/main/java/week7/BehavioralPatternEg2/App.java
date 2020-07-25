@@ -5,7 +5,7 @@ public class App                       //Implementing Template Design pattern
     {
         AppTemplate playstore = new PlayStore();
         playstore.buildApp();
-        System.out.println("********server*********");
+        System.out.println("********Server*********");
         AppTemplate server = new Server();
         server.buildApp();
         
